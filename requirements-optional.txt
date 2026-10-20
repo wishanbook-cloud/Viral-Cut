@@ -1,0 +1,10 @@
+# Install only the capabilities you intend to use. The editing engine remains
+# a separate local engine.py and is intentionally not included here.
+#
+# Local transcription for captions and filler-word removal:
+faster-whisper>=1.0
+# Alternatively, an engine may use openai-whisper instead of faster-whisper.
+# openai-whisper>=20231117
+
+# Face tracking / auto crop:
+opencv-python>=4.8,<5

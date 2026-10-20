@@ -1,0 +1,2 @@
+# Desktop interface only; AI/processing dependencies live in requirements-optional.txt.
+customtkinter==5.2.2
